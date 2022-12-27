@@ -11,7 +11,7 @@ from .. import loader, utils
 @loader.tds
 class MuteMod(loader.Module):
     """Для того чтобы замутить долбаебов."""
-    strings = {'name': 'YMute'}
+    strings = {'name': 'Hzmute'}
 
     async def client_ready(self, client, db):
         self.db = db
